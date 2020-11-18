@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../Header/Header';
 import Navbar from '../Navbar';
+import StayRunning from '../StayRunning/StayRunning';
 import WhatWeDo from '../WhatWeDo/WhatWeDo';
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
             <Navbar />
             <Header />
             <WhatWeDo />
+            <StayRunning />
         </div>
     );
 };

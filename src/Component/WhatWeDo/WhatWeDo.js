@@ -4,11 +4,10 @@ import img2 from '../../resources/Group 66@2x.png';
 import img3 from '../../resources/Group 69@2x.png';
 import img4 from '../../resources/Group 72@2x.png';
 import '../../App.css';
+import { Col, Row } from 'react-bootstrap';
 
 const fakeData = [
-    {
-        name: 'Experience Design', description: " The point of using Lorem Ipsum is that it has a more- orless normal.", img: img1
-    },
+    { name: 'Experience Design', description: " The point of using Lorem Ipsum is that it has a more- orless normal.", img: img1 },
     { name: 'Interface Design', description: "The point of using Lorem Ipsum is that it has a more- orless normal.", img: img2 },
     { name: 'Prototyping', description: "The point of using Lorem Ipsum is that it has a more- orless normal.", img: img3 },
     { name: 'Illustration', description: "The point of using Lorem Ipsum is that it has a more- orless normal.", img: img4 }
@@ -21,21 +20,26 @@ const WhatWeDo = () => {
                 <p className='text-muted'>Our main focus is to make the User Experience very  <br />
                 simple and easy. Simplicity is our Strength.</p>
             </div>
-            <div className='d-flex flex-wrap justify-content-center container-fluid' style={{ backgroundColor: '#FAFFFD' }}>
-                {
-                    fakeData.map(d => <div className=''>
-                        <div className="card m-5 effect px-4 py-3" style={{ width: '18rem', border: 'none', backgroundColor: '#FAFFFD' }}>
-                            <div className="card-body text-center">
-                                <img src={d.img} alt="" />
-                                <h5 className="card-title mt-4">{d.name}</h5>
-                                <p className="card-text">{d.description}</p>
 
-                            </div>
-                        </div>
-                    </div>)
-                }
-            </div>
-        </div>
+            <section className="px-5 mx-5" style={{ backgroundColor: '#FAFFFD' }}>
+                <Row>
+                    {
+                        fakeData.map(d => (
+                            <Col xl={3} lg={4} md={6} sm={12}>
+                                <div className="card effect py-3 mx-4 my-5" style={{ width: '18rem', border: 'none', backgroundColor: '#FAFFFD' }}>
+                                    <div className="card-body text-center">
+                                        <img src={d.img} alt="" />
+                                        <h5 className="card-title mt-4">{d.name}</h5>
+                                        <p className="card-text">{d.description}</p>
+                                    </div>
+                                </div>
+                            </Col>
+                        ))
+                    }
+                </Row>
+            </section>
+        </div >
+
     );
 };
 
