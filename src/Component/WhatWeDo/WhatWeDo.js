@@ -21,7 +21,7 @@ const WhatWeDo = () => {
                 <p className='text-muted'>Our main focus is to make the User Experience very  <br />
                 simple and easy. Simplicity is our Strength.</p>
             </div>
-            <div className='d-flex flex-wrap justify-content-center ' style={{ backgroundColor: '#FAFFFD' }}>
+            <div className='d-flex flex-wrap justify-content-center container-fluid' style={{ backgroundColor: '#FAFFFD' }}>
                 {
                     fakeData.map(d => <div className=''>
                         <div className="card m-5 effect px-4 py-3" style={{ width: '18rem', border: 'none', backgroundColor: '#FAFFFD' }}>

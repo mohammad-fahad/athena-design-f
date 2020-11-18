@@ -14,7 +14,7 @@ const Header = () => {
                     <button>See Pricing</button>
                 </div>
             </div>
-            <div className='col-md-8 justify-content-end'>
+            <div className='col-md-6 justify-content-end'>
                 <img className="img-fluid ml-5" style={{ height: '70vh' }} src={bg} alt="" />
             </div>
         </div>
