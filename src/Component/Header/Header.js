@@ -3,9 +3,9 @@ import bg from '../../resources/16 [Converted]@2x.png';
 
 const Header = () => {
     return (
-        <div className='d-flex flex-wrap px-5 mt-5 mx-5 '>
+        <div className='d-flex flex-wrap px-5 mt-5 ' style={{ overFlow: 'hidden' }}>
             <div className='mt-5 col-md-4 d-flex align-items-center container'>
-                <div className='container'>
+                <div className='container container-fluid'>
                     <h1 className='specialTexts header-text'>
                         Florence  <br />
                     Agency

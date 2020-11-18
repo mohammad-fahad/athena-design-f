@@ -15,20 +15,22 @@ const fakeData = [
 ];
 const WhatWeDo = () => {
     return (
-        <div>
+        <div style={{ backgroundColor: '#FAFFFD' }}>
             <div className="text-center mt-5">
                 <h1 className="specialTexts">What We Do</h1>
                 <p className='text-muted'>Our main focus is to make the User Experience very  <br />
                 simple and easy. Simplicity is our Strength.</p>
             </div>
-            <div className='d-flex flex-wrap justify-content-center'>
+            <div className='d-flex flex-wrap justify-content-center ' style={{ backgroundColor: '#FAFFFD' }}>
                 {
-                    fakeData.map(d => <div className="card m-5" style={{ width: '18rem', border: 'none' }}>
-                        <div className="card-body text-center">
-                            <img src={d.img} alt="" />
-                            <h5 className="card-title mt-4">{d.name}</h5>
-                            <p className="card-text">{d.description}</p>
+                    fakeData.map(d => <div className=''>
+                        <div className="card m-5 effect px-4 py-3" style={{ width: '18rem', border: 'none', backgroundColor: '#FAFFFD' }}>
+                            <div className="card-body text-center">
+                                <img src={d.img} alt="" />
+                                <h5 className="card-title mt-4">{d.name}</h5>
+                                <p className="card-text">{d.description}</p>
 
+                            </div>
                         </div>
                     </div>)
                 }
