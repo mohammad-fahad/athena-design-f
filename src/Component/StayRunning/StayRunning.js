@@ -13,7 +13,7 @@ const StayRunning = () => {
                     <div>
                         <h1>STAY RUNNING & Project</h1>
                         <p className='py-4 text-muted'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letter.</p>
-                        <button className="common-btn">See Pricing</button>
+                        <button className="btn common-btn px-4 py-2"><b>See Pricing</b></button>
                     </div>
             </Col>
             <Col lg={1} md={0}></Col>

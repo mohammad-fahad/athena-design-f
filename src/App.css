@@ -2,16 +2,14 @@
 .common-btn{
     background:  linear-gradient(to right, #2AF598, #01A1FA);
     border: none;
-    border-radius: 25px 0;
-    color: #fff;
-    font-weight: bold;
-    padding: 2% 5%;
-   
+    border-radius: 25px 0 !important;
+    color: #fff !important;
+}
+.common-btn:active{
+  border: none!important;
 }
 .common-btn:focus{
-  border: 0!important;
-  /* Need to fix this part */
-  
+  border: none!important;
 }
 .header-text{
   font-size: 60px;

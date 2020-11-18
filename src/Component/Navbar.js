@@ -24,7 +24,7 @@ const Navbar = () => {
                         <li className="nav-item">
                             <a className="nav-link active mr-5" href="#" tabindex="-1" aria-disabled="true">Pricing</a>
                         </li>
-                        <button className="px-5 py-3 text-white common-btn"> <strong>Our Team</strong> </button>
+                        <button className="px-5 py-3 text-white btn common-btn"> <strong>Our Team</strong> </button>
                     </ul>
                 </div>
             </nav>

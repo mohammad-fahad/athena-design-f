@@ -4,7 +4,7 @@ import img2 from '../../resources/Group 66@2x.png';
 import img3 from '../../resources/Group 69@2x.png';
 import img4 from '../../resources/Group 72@2x.png';
 import '../../App.css';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 
 const fakeData = [
     { name: 'Experience Design', description: " The point of using Lorem Ipsum is that it has a more- orless normal.", img: img1 },
