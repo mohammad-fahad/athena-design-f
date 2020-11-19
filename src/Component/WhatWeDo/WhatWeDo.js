@@ -20,6 +20,7 @@ const WhatWeDo = () => {
                 <p className='text-muted'>Our main focus is to make the User Experience very  <br />
                 simple and easy. Simplicity is our Strength.</p>
             </div>
+
             <section className="px-5 mx-5" style={{ backgroundColor: '#FAFFFD' }}>
                 <Row>
                     {
@@ -38,6 +39,7 @@ const WhatWeDo = () => {
                 </Row>
             </section>
         </div >
+
     );
 };
 

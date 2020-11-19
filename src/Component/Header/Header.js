@@ -8,7 +8,7 @@ const Header = () => {
             <Col lg={{ span: 4, offset: 1 }} md={{ span: 4, offset: 1 }} sm={{ span: 10, offset: 1 }} className="d-flex align-items-center">
                 <div>
                     <h1 className='header-text'>Florence <br /> agency</h1>
-                    <p style={{fontSize: '14px'}} className='py-4 text-muted'>Lorem Ipsum has been the industry's standard dummy text ever<br />
+                    <p style={{ fontSize: '14px' }} className='py-4 text-muted'>Lorem Ipsum has been the industry's standard dummy text ever<br />
                         since the 1500s, when an unknown printer took a galley of type and<br />
                         scrambled it to make a type specimen book.</p>
                     <button className="common-btn px-4 py-2"><b>See Pricing</b></button>
@@ -19,6 +19,7 @@ const Header = () => {
             </Col>
             <Col lg={1} md={0}></Col>
         </Row>
+
     );
 };
 
