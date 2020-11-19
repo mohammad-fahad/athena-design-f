@@ -5,7 +5,7 @@ import logo from '../resources/Group 86.png';
 
 const Navbar = () => {
     return (
-        <Row>
+        <Row className='container-fluid'>
             <Col md={1}></Col>
             <Col md={10}>
                 <nav className="navbar navbar-expand-lg navbar-light mt-2">
