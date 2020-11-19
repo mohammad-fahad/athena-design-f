@@ -1,4 +1,5 @@
 import React from 'react';
+import Achievement from '../Achievement/Achievement';
 import Header from '../Header/Header';
 import Navbar from '../Navbar';
 import StayRunning from '../StayRunning/StayRunning';
@@ -11,6 +12,7 @@ const Home = () => {
             <Header />
             <WhatWeDo />
             <StayRunning />
+            <Achievement />
         </div>
     );
 };
