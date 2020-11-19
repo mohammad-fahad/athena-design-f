@@ -1,5 +1,6 @@
 import React from 'react';
 import Achievement from '../Achievement/Achievement';
+import ChooseTeam from '../ChooseTeam/ChooseTeam';
 import Header from '../Header/Header';
 import Navbar from '../Navbar';
 import StayRunning from '../StayRunning/StayRunning';
@@ -13,6 +14,7 @@ const Home = () => {
             <WhatWeDo />
             <StayRunning />
             <Achievement />
+            <ChooseTeam />
         </div>
     );
 };
