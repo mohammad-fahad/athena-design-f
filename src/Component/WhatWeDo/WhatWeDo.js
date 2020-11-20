@@ -1,8 +1,10 @@
 import React from 'react';
+import '../../App.css';
 import img1 from '../../resources/Group 65@2x.png';
 import img2 from '../../resources/Group 66@2x.png';
 import img3 from '../../resources/Group 69@2x.png';
 import img4 from '../../resources/Group 72@2x.png';
+import bg from '../../resources/bd-rope.png';
 import '../../App.css';
 import { Col, Row } from 'react-bootstrap';
 
@@ -21,12 +23,12 @@ const WhatWeDo = () => {
                 simple and easy. Simplicity is our Strength.</p>
             </div>
 
-            <section className="px-5 mx-5" style={{ backgroundColor: '#FAFFFD' }}>
-                <Row>
+            <section className="px-5 mx-5 rope" style={{ backgroundColor: '#FAFFFD' }}>
+                <Row className="position: 'absolute'">
                     {
                         fakeData.map(d => (
-                            <Col xl={3} lg={4} md={6} sm={12}>
-                                <div className="card effect py-3 mx-4 my-5" style={{ width: '18rem', border: 'none', backgroundColor: '#FAFFFD' }}>
+                            <Col xl={3} lg={4} md={6} sm={12}>                                
+                                <div className="card effect py-3 mx-4 my-5" style={{ width: '18rem', border: 'none', backgroundColor: '#FAFFFD', }}>
                                     <div className="card-body text-center">
                                         <img src={d.img} alt="" />
                                         <h5 className="card-title mt-4">{d.name}</h5>

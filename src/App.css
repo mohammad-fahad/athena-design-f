@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
 
+
+.top-bg{
+  background: url(./resources/Group\ 45@2x.png);
+  /* position: top left; */
+  
+}
+
 .common-btn{
     background:  linear-gradient(to right, #2AF598, #01A1FA);
     border: none;
@@ -36,4 +43,10 @@ li>a:hover{
 }
 .card:hover{
   background: #fff;
+}
+
+.rope{
+  background: url(../src/resources/bd-rope.png);
+  position: relative  top top;
+  
 }

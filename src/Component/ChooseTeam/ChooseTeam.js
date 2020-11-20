@@ -5,7 +5,7 @@ const ChooseTeam = () => {
     return (
         <div>
             <h3 className="text-center mb-4">Choose Your Dedicated Team</h3>
-            <div className="container d-flex justify-content-around">
+            <div className="container d-flex flex-wrap justify-content-center ">
                 <div className="row">
                     <div className="col-sm team-card">
                         <div className="card-items text-center">
