@@ -1,0 +1,54 @@
+.bg-top {
+    background: url('../../resources/Group\ 46@2x.png');
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position-x: 195%;
+    background-position-y: 100%;
+}
+
+.bg-dot {
+    background: url('../../resources/bg-dot.png');
+    background-repeat: no-repeat;
+    background-position-x: 300%;
+    background-position-y: 30%;
+}
+
+.header-bg {
+    background: url('../../resources/Path\ 76@2x.png');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position-x: -70%;
+    background-position-y: -220%;
+}
+
+.bg-stdio {
+    background: url('../../resources/stdio.png');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position-x: -10%;
+    background-position-y: 115%;
+}
+
+.what-we-do {
+    background-color: #FAFFFD;
+    background-image:  url('../../resources/bd-rope.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 0%;
+}
+
+
+.what-we-do-card:hover{
+    background: #fff !important;
+    border-radius: 70px 0px;
+    box-shadow: 0 0 15px #63f0ae;
+    transition: 0.5s;
+}
+
+.stay-running {
+    background-image:  url('../../resources/Group\ 46@2x.png');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position-x: 170%;
+    background-position-y: 50%;
+}

@@ -1,9 +1,10 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGrinAlt } from '@fortawesome/free-regular-svg-icons';
-import { faTrophy, faRocket, faSpa } from '@fortawesome/free-solid-svg-icons';
 import './Achievement.css';
+import smile from '../../resources/happy@2x.png';
+import trophy from '../../resources/marketing@2x.png';
+import win from '../../resources/surface1@2x.png';
+import rocket from '../../resources/transportation@2x.png';
 
 const Achievement = () => {
     return (
@@ -19,7 +20,7 @@ const Achievement = () => {
                 <Row className='p-0 m-0'>
                     <Col lg={6} md={6} sm={{span: 8, offset: 2}} className='p-0 mx-auto'>
                         <div className='d-flex justify-content-around fancy-card card-odd'>
-                            <p className='my-auto display-3'><FontAwesomeIcon icon={faGrinAlt} /></p>
+                            <img src={smile} className='img-fluid smile' alt=""/>
                             <div>
                                 <h1>700+</h1>
                                 <p>Happy Clients</p>
@@ -28,7 +29,7 @@ const Achievement = () => {
                     </Col>
                     <Col lg={6} md={6} sm={{span: 8, offset: 2}} className='p-0 mx-auto'>
                         <div className='d-flex justify-content-around fancy-card card-even'>
-                            <p className='my-auto display-3'><FontAwesomeIcon icon={faTrophy} /></p>
+                            <img src={trophy} className='img-fluid achievement-logo' alt=""/>
                             <div>
                                 <h1>140+</h1>
                                 <p>Projects Completed</p>
@@ -37,7 +38,7 @@ const Achievement = () => {
                     </Col>
                     <Col lg={6} md={6} sm={{span: 8, offset: 2}} className='p-0 mx-auto'>
                         <div className='d-flex justify-content-around fancy-card card-even'>
-                            <p className='my-auto display-3'><FontAwesomeIcon icon={faSpa} /></p>
+                            <img src={win} className='img-fluid achievement-logo' alt=""/>
                             <div>
                                 <h1>25+</h1>
                                 <p>Crazy Minds</p>
@@ -46,7 +47,7 @@ const Achievement = () => {
                     </Col>
                     <Col lg={6} md={6} sm={{span: 8, offset: 2}} className='p-0 mx-auto'>
                         <div className='d-flex justify-content-around fancy-card card-odd'>
-                            <p className='my-auto display-3'><FontAwesomeIcon icon={faRocket} /></p>
+                            <img src={rocket} className='img-fluid achievement-logo' alt=""/>
                             <div>
                                 <h1>75+</h1>
                                 <p>Running Projects</p>

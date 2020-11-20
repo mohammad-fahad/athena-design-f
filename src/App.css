@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 
-
-.top-bg{
-  background: url(./resources/Group\ 45@2x.png);
-  /* position: top left; */
-  
+.navbar__bg {
+  background: url('./resources/Group\ 45@2x.png');
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position-x: -20%;
+  background-position-y: 70%;
 }
 
 .common-btn{
@@ -27,8 +28,9 @@
 
 .header-text{
   font-size: 60px;
-  line-height: 0.8em;
+  font-family: 'Yeseva One', cursive;
 }
+
 li>a:hover{
   font-weight: bold;
 }
@@ -36,11 +38,7 @@ li>a:hover{
   color: #0D052E;
   font-family: 'Lora', serif;
 }
-.effect:hover{
-  background: #fff !important;
-  border-radius: 70px 0px;
-  box-shadow: 0px 0px 15px lightgrey;
-}
+
 .card:hover{
   background: #fff;
 }

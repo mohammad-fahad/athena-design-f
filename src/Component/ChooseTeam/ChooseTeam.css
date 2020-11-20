@@ -20,7 +20,9 @@
     background-color: #4FD1CB;
     height: 0.5px;
 }
-.order-button{
-    margin-top: 40px;
-    
+.order-now {
+    display: none;
+}
+.team-card:hover .order-now {
+    display: inline-block;
 }

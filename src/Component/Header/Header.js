@@ -4,8 +4,9 @@ import bg from '../../resources/16 [Converted]@2x.png';
 
 const Header = () => {
     return (
-        <Row className='py-5 container-fluid'>
-            <Col lg={{ span: 4, offset: 1 }} md={{ span: 4, offset: 1 }} sm={{ span: 10, offset: 1 }} className="d-flex align-items-center">
+        <Row className='py-5 container-fluid header-bg bg-stdio'>
+            <Col md={1} className='bg-dot m-0 p-0'></Col>
+            <Col lg={4} md={4} sm={10} className="d-flex align-items-center">
                 <div>
                     <h1 className='header-text'>Florence <br /> agency</h1>
                     <p style={{ fontSize: '14px' }} className='py-4 text-muted'>Lorem Ipsum has been the industry's standard dummy text ever<br />

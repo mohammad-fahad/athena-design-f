@@ -1,7 +1,6 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import img from '../../resources/20 [Converted]@2x.png';
-import './StayRunning.css';
 
 const StayRunning = () => {
     return (

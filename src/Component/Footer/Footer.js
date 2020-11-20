@@ -8,9 +8,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className="d-flex justify-content-center footer-section">
-
-
+        <div className="container-fluid footer-section">
             <div className="footer-colum text-center">
                 <div className="row">
 

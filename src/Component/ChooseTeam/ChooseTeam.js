@@ -3,8 +3,8 @@ import "./ChooseTeam.css";
 
 const ChooseTeam = () => {
     return (
-        <div>
-            <h3 className="text-center mb-4">Choose Your Dedicated Team</h3>
+        <div className='py-5'>
+            <h1 className="text-center my-4">Choose Your Dedicated Team</h1>
             <div className="container d-flex flex-wrap justify-content-center ">
                 <div className="row">
                     <div className="col-sm team-card">
@@ -19,7 +19,7 @@ const ChooseTeam = () => {
                             <li>Free Stock Photos</li>
                             <li>10 Days Free Support</li>
                             <li>24/7 Support</li>
-                            <button className="order-button common-btn">Order Now</button>
+                            <button className="common-btn py-2 px-4 mt-3 order-now">Order Now</button>
                         </div>
                     </div>
                     <div className="col-sm team-card">
@@ -34,7 +34,7 @@ const ChooseTeam = () => {
                             <li>Free Stock Photos</li>
                             <li>10 Days Free Support</li>
                             <li>24/7 Support</li>
-                            <button className="order-button common-btn">Order Now</button>
+                            <button className="common-btn py-2 px-4 mt-3 order-now">Order Now</button>
                         </div>
                     </div>
                     <div className="col-sm team-card">
@@ -49,7 +49,7 @@ const ChooseTeam = () => {
                             <li>Free Stock Photos</li>
                             <li>10 Days Free Support</li>
                             <li>24/7 Support</li>
-                            <button className="order-button common-btn">Order Now</button>
+                            <button className="common-btn py-2 px-4 mt-3 order-now">Order Now</button>
                         </div>
                     </div>
                 </div>
